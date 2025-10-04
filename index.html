@@ -23,6 +23,7 @@
     </script>
     
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -159,18 +160,18 @@
                 <a href="#about" class="hover:text-light-gold transition-colors duration-300">ABOUT US</a>
                 <a href="#services" class="hover:text-light-gold transition-colors duration-300">SERVICES</a>
                 <a href="#blog" class="hover:text-light-gold transition-colors duration-300">BLOG</a>
-                <a href="#newsletter" class="hover:text-light-gold transition-colors duration-300">NEWSLETTER</a>
+                <!-- <a href="#newsletter" class="hover:text-light-gold transition-colors duration-300">NEWSLETTER</a> -->
                 <a href="#contact" class="hover:text-light-gold transition-colors duration-300">CONTACT US</a>
             </nav>
             <!-- Icons -->
-            <div class="hidden lg:flex items-center space-x-6">
+            <!-- <div class="hidden lg:flex items-center space-x-6">
                 <a href="#" class="text-gray-400 hover:text-light-gold transition-colors duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" /></svg>
                 </a>
                 <a href="#" class="text-gray-400 hover:text-light-gold transition-colors duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
                 </a>
-            </div>
+            </div> -->
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="lg:hidden text-light-gold focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
@@ -529,12 +530,12 @@
     </section>
 
     <!-- Blog/Updates Section (Light) -->
-    <section id="blog" class="bg-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
+    <!-- <section id="blog" class="bg-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-center text-sm font-semibold tracking-wide uppercase mb-2">LATEST BLOGS</h2>
             <h3 class="text-center text-3xl md:text-4xl font-bold mb-12">Get Our Every Single Update</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Blog Post 1 -->
+                
                 <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
                     <img src="https://placehold.co/600x400/999999/ffffff?text=Blog+Image+1" alt="A stylish and calming bedroom interior, suggesting a design that promotes relaxation and a sense of safety." class="w-full h-auto object-cover">
                     <div class="p-6">
@@ -543,7 +544,7 @@
                         <p class="mt-2 text-gray-600 text-sm">Discover how to create a personal sanctuary with our guide to designing a bedroom that offers ultimate comfort and security, blending aesthetics with a sense of calm.</p>
                     </div>
                 </div>
-                <!-- Blog Post 2 -->
+               
                 <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
                     <img src="https://placehold.co/600x400/888888/ffffff?text=Blog+Image+2" alt="A team of interior designers collaborating on a project, symbolizing professional expertise and partnership." class="w-full h-auto object-cover">
                     <div class="p-6">
@@ -552,7 +553,7 @@
                         <p class="mt-2 text-gray-600 text-sm">Our expert designers share five clear signs that it’s time to hire a professional to manage your next interior project, ensuring a flawless and stress-free experience.</p>
                     </div>
                 </div>
-                <!-- Blog Post 3 -->
+                
                 <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
                     <img src="https://placehold.co/600x400/777777/ffffff?text=Blog+Image+3" alt="An image showing before and after shots of a home interior, illustrating the positive transformation of a space." class="w-full h-auto object-cover">
                     <div class="p-6">
@@ -563,7 +564,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Calendly Embed Section (Dark) -->
     <section id="contact" class="bg-very-dark text-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
@@ -573,20 +574,24 @@
             <p class="text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">Book a convenient time directly on our calendar to discuss your interior design needs. We look forward to speaking with you!</p>
             <!-- Calendly embedded iframe -->
             <div class="overflow-hidden rounded-lg shadow-xl" style="min-height: 700px;">
-                <iframe 
+                <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/poshandpolish" style="min-width:320px;height:700px;"></div>
+
+<!-- Calendly inline widget end -->
+                <!-- <iframe 
                     src="https://calendly.com/gemini-ai/30-minute-consultation" 
                     frameborder="0" 
                     width="100%" 
                     height="100%"
                     class="w-full h-full"
                     title="Calendly Booking">
-                </iframe>
+                </iframe> -->
             </div>
         </div>
     </section>
 
     <!-- Newsletter Section (Dark) -->
-    <section id="newsletter" class="bg-very-dark text-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
+    <!-- <section id="newsletter" class="bg-very-dark text-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
         <div class="max-w-4xl mx-auto text-center">
             <h3 class="text-3xl md:text-4xl font-bold leading-tight mb-4">Subscribe to Our Newsletter</h3>
             <p class="text-gray-400 max-w-2xl mx-auto mb-8">Stay up to date with our latest projects, design trends, and exclusive offers by subscribing to our newsletter.</p>
@@ -595,7 +600,7 @@
                 <button type="submit" class="w-full sm:w-auto btn-gold py-4 px-8 rounded-md font-semibold transition duration-300 transform hover:scale-105">SUBSCRIBE</button>
             </form>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer Section (Dark) -->
     <footer class="bg-very-dark text-white py-16 md:py-24 px-6 md:px-12 lg:px-24">
